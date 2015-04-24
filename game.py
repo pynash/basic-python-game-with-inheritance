@@ -22,7 +22,7 @@ class Game(object):
 				print self.block_number[i]
 				time.sleep(3)
 				os.system("clear")
-	def Leer(self):
+	def Read(self):
 		self.puntaje = 0
 		for i in range(len(self.block_number)):
 			num1 = int(input("\nDigita Numero de la secuencia: "))
